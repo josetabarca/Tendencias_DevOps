@@ -22,8 +22,11 @@ jobs:
       - name: Mostrar archivos del proyecto
         run: ls -la
 
-      - name: Ejecutar prueba
-        run: echo "Prueba ejecutada correctamente"
+      - name: Ejecutar segunda prueba
+        run: echo "Prueba ejecutada correctamente de nuevo"
+
+      - name: Nuevo trabajo
+        run: echo "Funciona correctamente"
 
       - name: Finalizar proceso
-        run: echo "Proceso de Integracion Continua finalizado"
+        run: echo "Proceso de Integracion Continua finalizado otravez"
