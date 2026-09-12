@@ -1,15 +1,15 @@
 {
   "name": "tendencias_devops",
   "version": "1.0.0",
-  "description": "Repositorio para practicas de la materia \"Tendencias en Entorno de Desarrollo de Aplicaciones y Servicios\"",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
   "devDependencies": {
-    "jest": "^30.5.1"
+    "jest": "^30.5.1",
+    "jsdom": "^26.1.0",
+    "jest-environment-jsdom": "^30.5.1"
   }
 }
